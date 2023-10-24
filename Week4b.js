@@ -3,7 +3,7 @@ age = age + 1;
 console.log("You are now " + age + " years old.");
 
 age++;  // short-hand notation
-console.log("You are now " + age + " years old.");
+console.log("You are now " + age + " years old."); 
 
 let ammo =6;
 ammo = ammo - 1;    // long-hand
