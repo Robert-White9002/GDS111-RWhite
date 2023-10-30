@@ -1,4 +1,4 @@
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {  //assign i as zero, see if it's less than 5, then increase by 1
     console.log(i);
 }
 
