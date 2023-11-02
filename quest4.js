@@ -5,7 +5,8 @@ var s = "a senior."; //over 65
 
 a = prompt("Enter your age here:");
 if (a <= 18) {
-    playerAge = m;
+    
+playerAge = m;
     console.log("You are " + m); // player is a minor
 
 } else if (a > 65) {

@@ -1,38 +1,28 @@
 var a = 0; //initialize a
-var L = "Load"; // 1
-var S = "Save"; // 2
-var P = "Play"; // 3
-var H = "Help"; // 4
-var Q = "Quit"; // 5
-var E = "Error"; // over 5
-var E = "Error"; // under 0
+var l = "Loading Game..."; //1
+var s = "Saving status..."; //2
+var p = "Lets Play!"; //3
+var h = "Heres Your Help"; //4
+var q = "Game Over!"; //5
+var e = "Invalid Entry"; //over 5
 
-a = prompt("Make a Selection:");
-if (a = 1) {
-    selection = L;
-    console.log( L); // Load
-    
-} else if (a = 2 ) {
-    selection = S;
-    console.log( S);  // Save
-    
-} else if (a = 3 ) {
-    selection = P;
-    console.log( P);   // Play
-
-} else if (a = 4 ) {
-    selection = H;
-    console.log( H);   //Help
-
-} else if (a = 5 ) {
-    selection = Q;
-    console.log( Q);   // Quit
-
-} else if (a => 6 ) {
-error = E;
-console.log(E);   // Error
-
-}else if ( a <= 0 ) {
-    error = E;
-    console.log(E); // Error
+a = prompt("1-Load 2-Save 3-Play 4-Help 5-Quit Make a selecion.");
+if (a == 1) {
+    playerChoice = l;
+    console.log(playerChoice);     
+} else if (a == 2) {
+    playerChoice = s;
+    console.log(playerChoice);    
+} else if (a == 3) {
+    playerChoice = p;
+    console.log(playerChoice);
+} else if (a == 4) {
+    playerChoice = h;
+    console.log(playerChoice);
+} else if (a == 5) {
+    playerChoice = q;
+    console.log(playerChoice);
+} else {
+    playerChoice = e; //Error 
+console.log(playerChoice);
 }
