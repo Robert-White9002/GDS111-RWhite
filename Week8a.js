@@ -13,7 +13,7 @@ class Player {
         this.level = newLevel;
     }
     getLevel() {
-        return this.level
+        return this.level;
     }
 }
 
